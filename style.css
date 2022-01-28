@@ -1,0 +1,66 @@
+
+
+.carru{
+    
+    height: 35em;
+    
+}
+
+.encabezado{
+    background-image: linear-gradient(to top, rgb(175, 183, 189), rgb(52, 58, 56));
+
+
+}
+    h1 {
+        text-align: center;
+        font-size: 5em;     
+        font-family: 'Spline Sans', sans-serif;      
+        color: aliceblue;
+        padding-top: 20px;
+        padding-left: 15px;
+        text-shadow: 10px 10px 5px gray;
+    }
+    h4 {
+        color: aliceblue;         
+        font-size: 2em;    
+        padding-top: 50px; 
+        font-family: 'Ubuntu Mono', monospace;    
+        animation-duration: 4s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+       } 
+       @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+
+     .logo{
+        position: absolute;    
+        top: 10px; 
+        left: 10px;
+        width: 100px;
+        height:100px;
+        display: inline;
+        border: solid 5px rgb(2, 15, 32);  
+        border-radius:80%;  
+        transition: top 2s;      
+    }
+    .logo:hover{
+        top:50px ;
+    }
+    .whatsapp { 
+        position: absolute;    
+        top: 20px; 
+        right: 20px;
+        width: 60px;
+        height:60px;
+        display: inline;
+        border: solid 5px black;  
+        border-radius:90%;
+        position: fixed;
+        z-index: 10;
+        }
