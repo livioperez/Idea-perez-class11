@@ -40,17 +40,16 @@
 
      .logo{
         position: absolute;    
-        top: 10px; 
-        left: 10px;
-        width: 100px;
-        height:100px;
+        top: 20px; 
+        left: 25px;
+        width: 120px;
+        height:120px;
         display: inline;
-        border: solid 5px rgb(2, 15, 32);  
-        border-radius:80%;  
+         
         transition: top 2s;      
     }
     .logo:hover{
-        top:50px ;
+        top:80px ;
     }
     .whatsapp { 
         position: absolute;    
