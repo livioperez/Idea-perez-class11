@@ -12,7 +12,7 @@
 
 }
     h1 {
-        
+        height: 3em;
         font-size: 4.1em;     
         font-family: 'Spline Sans', sans-serif;      
         color: aliceblue;
@@ -45,8 +45,8 @@
         position: absolute;    
         top: 20px; 
         left: 25px;
-        width: 120px;
-        height:120px;
+        width: 100px;
+        height:100px;
         display: inline;
          
         transition: top 2s;      
@@ -82,4 +82,44 @@
 
         }
 
-        
+        .parrafo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            background-color: rgba(241, 235, 235, 0.541);
+            font-size: 2em;
+            color: darkcyan;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .transporte{
+            width: 300px;
+            height: 300px;
+        }
+
+        .dat{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 5px;
+            height: 35em;
+            background-image: radial-gradient( rgb(144, 176, 201), rgb(215, 217, 224));
+
+        }
+        .iframe{
+            padding-top: 100px;
+            width: 25em;
+            height: 35em;
+            
+            
+        }
+        .subte{
+            color: darkred;
+            text-align: center;
+            border: solid 1px black;
+
+        }
