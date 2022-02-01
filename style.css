@@ -123,3 +123,10 @@
             border: solid 1px black;
 
         }
+
+        .email{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10em;
+
+        }
